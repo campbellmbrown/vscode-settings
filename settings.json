@@ -1,0 +1,43 @@
+{
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "name": "Comments",
+                "scope": [
+                    "comment"
+                ],
+                "settings": {
+                    "foreground": "#777777"
+                }
+            },
+            {
+                "name": "Interfaces",
+                "scope" : [
+                    "entity.name.type.interface"
+                ],
+                "settings": {
+                    "foreground": "#1cffc2"
+                }
+            }
+        ]
+    },
+    "editor.rulers": [
+        120
+    ],
+    "files.trimTrailingWhitespace": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "cSpell.userWords": [
+        "autofetch",
+        "backoff",
+        "bootloading",
+        "coms",
+        "dataframe",
+        "deadtime",
+        "GPIO"
+    ],
+    "window.zoomLevel": -1,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "gitPrefix.pattern": "\\w+\/(\\w*[-#]?\\d+)\/.*",
+    "gitPrefix.replacement": "$1: "
+}
