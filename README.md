@@ -12,4 +12,3 @@ The following extensions are configured by the settings file (arranged alphabeti
 | - | - |
 | Code Spell Checker | [streetsidesoftware.code-spell-checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) |
 | Git Prefix | [srmeyers.git-prefix](https://marketplace.visualstudio.com/items?itemName=srmeyers.git-prefix) |
-|
