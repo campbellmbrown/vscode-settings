@@ -1,4 +1,10 @@
 {
+    "editor.semanticTokenColorCustomizations": {
+        "enabled": true,
+        "rules": {
+            "newOperator": { "foreground": "#f92672" }
+        }
+    },
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
@@ -18,6 +24,109 @@
                 "settings": {
                     "foreground": "#1cffc2"
                 }
+            },
+            {
+                "name": "Types",
+                "scope": [
+                    "entity.name.type"
+                ],
+                "settings": {
+                    "foreground": "#41a2a0"
+                }
+            },
+            {
+                "name": "Parameters",
+                "scope": [
+                    "variable.parameter",
+                    "variable.language.this"
+                ],
+                "settings": {
+                    "foreground": "#fd911f",
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "name": "Methods",
+                "scope": [
+                    "entity.name.function"
+                ],
+                "settings": {
+                    "foreground": "#a6e22e"
+                }
+            },
+            {
+                "name": "Preprocessors",
+                "scope": [
+                    "entity.name.function.preprocessor"
+                ],
+                "settings": {
+                    "foreground": "#6b95ff"
+                }
+            },
+            {
+                "name": "Strings",
+                "scope": [
+                    "string"
+                ],
+                "settings": {
+                    "foreground": "#e6db74"
+                }
+            },
+            {
+                "name": "Properties",
+                "scope": [
+                    "variable.other.property"
+                ],
+                "settings": {
+                    "foreground": "#ffffbb"
+                }
+            },
+            {
+                "name": "Locals",
+                "scope": [
+                    "variable.other.local"
+                ],
+                "settings": {
+                    "foreground": "#cfcfcf"
+                }
+            },
+            {
+                "name": "Operators",
+                "scope": [
+                    "keyword.operator"
+                ],
+                "settings": {
+                    "foreground": "#d2ff79"
+                }
+            },
+            {
+                "name": "Conditionals",
+                "scope": [
+                    "keyword.control",
+                    "storage.modifier"
+                ],
+                "settings": {
+                    "foreground": "#f92672"
+                }
+            },
+            {
+                "name": "Directives",
+                "scope": [
+                    "keyword.control.directive"
+                ],
+                "settings": {
+                    "foreground": "#bb0000"
+                }
+            },
+            {
+                "name": "Constants",
+                "scope": [
+                    "constant.language",
+                    "constant.numeric"
+                ],
+                "settings": {
+                    "foreground": "#ae81ff"
+                }
             }
         ]
     },
@@ -33,11 +142,13 @@
         "coms",
         "dataframe",
         "deadtime",
-        "GPIO"
+        "GPIO",
+        "Monokai"
     ],
-    "window.zoomLevel": -1,
     "git.autofetch": true,
     "git.confirmSync": false,
     "gitPrefix.pattern": "\\w+\/(\\w*[-#]?\\d+)\/.*",
-    "gitPrefix.replacement": "$1: "
+    "gitPrefix.replacement": "$1: ",
+    "window.zoomLevel": -1,
+    "editor.codeLens": false
 }
